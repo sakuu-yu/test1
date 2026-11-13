@@ -2,4 +2,16 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- 学号尾号 6：全部文字使用棕色系。 -->
+    <color name="brown">#8B4513</color>
+    <color name="brown_dark">#5D4037</color>
+    <color name="brown_light">#8D6E63</color>
+    <color name="brown_pale">#EFE4D8</color>
+
+    <color name="page_background">#FAF6F1</color>
+    <color name="toolbar_background">#F4ECE4</color>
+    <color name="card_background">#FFFDFC</color>
+    <color name="card_stroke">#E6D9CC</color>
+    <color name="divider">#EDE2D7</color>
 </resources>

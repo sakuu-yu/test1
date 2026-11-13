@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "test1"
+rootProject.name = "WangHaoYuBookManager"
 include(":app")
  

@@ -1,8 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Test1" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- 学号尾号 6：主题与文字统一使用棕色系。 -->
+    <style name="Base.Theme.Test1" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@color/brown_dark</item>
+        <item name="colorOutline">@color/card_stroke</item>
+        <item name="android:windowBackground">@color/page_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fontFamily">sans-serif</item>
     </style>
 
     <style name="Theme.Test1" parent="Base.Theme.Test1" />
